@@ -1,0 +1,16 @@
+s={10,2,3,4,5}
+# s.add(8)
+# print(s)
+# print(len(s))
+# s.remove(3)
+# print(s)
+# s.pop()
+# print(s)
+# s.remove(1)
+# print(s)
+a={10,30,50,70,100,200,90}
+# print(a.pop())
+# print(a)
+# print(s.clear())
+print(s|a)
+# print(s&a)

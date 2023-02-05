@@ -1,0 +1,11 @@
+# f=open("this.txt","r")
+# d=f.read()
+# print(d)
+# f.close()
+
+f=open("this.txt","w")
+f.write("this is in write mode")
+f.write("this is in write mode")
+f.write("this is in write mode")
+f.write("this is in write mode")
+f.close()
