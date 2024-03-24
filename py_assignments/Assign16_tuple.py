@@ -39,10 +39,20 @@
 
 #Program to check if all items in the tuple are same or not
 
-# t3=tuple([eval(e) for e in input("Enter values seperated by comma").split(',')])
+# t3=tuple([eval(e) for e in input("Enter values seperated by comma\n").split(',')])
 # print(t3)
 # l=len(t3)
 # i=0   
+                        # M1
+# for e in t3:
+#     if e == t3[i]:
+#         continue
+#     else:
+#         print("Different Elements")
+#         break
+# else:
+#     print("Same Elements")
+                                #  M2
 # while i<l-2:
 #     if t3[i]!=t3[i+1]:
 #         break
@@ -57,6 +67,9 @@
 # tuple1=(100,200,300,400)
 
 # tuple1=(100,200,300,400)
+
+# a,b,c,d = tuple1
+# print(a,b,c,d,sep = " ")
 
 # fisrt_variable=tuple1[0]
 # second_variable=tuple1[1]

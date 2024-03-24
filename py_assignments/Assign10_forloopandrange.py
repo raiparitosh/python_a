@@ -78,6 +78,14 @@
 
 #Script to display all prime numbers in a range. range-start=15,end=45
 
+                                #  M1
+# for n in range(15,46):
+#     for i in range(2,n):
+#         if n % i == 0:
+#             break
+#     else:
+#         print(n,end = " ") 
+                                #  M2
 # r=range(15,45)
 # for i in r:
 #     a=2

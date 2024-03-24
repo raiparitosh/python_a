@@ -8,7 +8,7 @@ d={1:"paritosh rai",2:"toshu",3:"papaji",4:"Maa",5:"didi"}
 # print(d[4])
 
 # for key in d:
-    # print(d[key])
+#     print(d[key])
 
 # for key in d:                 
 #     print(key,d[key])    

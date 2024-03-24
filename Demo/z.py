@@ -15,3 +15,14 @@ print("jaldi jaldi kro toshu")
 
 # x=int(input("Enter a number"))
 # print("Positive" if x>0 else "Non Positive")
+
+a = 54321
+
+rev = 0
+
+while(a!=0):
+    rem = a % 10
+    rev = rev * 10 + rem
+    a = a//10
+
+print(rev)

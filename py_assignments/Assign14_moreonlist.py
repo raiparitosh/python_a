@@ -3,9 +3,9 @@
 #Script to create a list of first N natural numbers
 
 # n=int(input("Enter upto which natural number you want the list"))
-# # [expression for variable in iterable] - this syntax creates a list
+#  #[expression for variable in iterable] -List Comprehension -- this syntax creates a list
 # print(n)
-# l1=[x for x in range(n+1)]           
+# l1=[x for x in range(1,n+1)]           
 # print(l1)
 
 
@@ -105,7 +105,27 @@
 
 
 #Script to print indices of all occurences of a given element ina given list
+               
+                    #   M1
+# l2 = [] 
+# i =0
+# n = int(input("Enter how many numbers you want"))
+# print("Enter %d values"%n)
+# while i<n:
+#     l2.append(int(input()))
+#     i+=1
+# e = int(input("Enter the element you want to search"))
+# i = 0
+# while i<n:
+#     if e not in l2:
+#         print("The value you entered is not present in the list")
+#         break
+#     else:
+#         if l2[i] == e:
+#             print(i,end = " ")  
+#     i += 1
 
+                            #  M2
 # l9=[1,2,3,4,1,6,2,8,3,9,4,6,4,2,6,8,9,0,4]
 # i=0
 # element=int(input("Enter the element whose occurence index you want to check"))
@@ -121,3 +141,20 @@
 # l10=[4,3,7,8,4,5,2,6,86,46,25,75,78,5,632,46,7,1]
 # l10.sort()
 # print(l10)
+
+
+               # User input for list
+
+# print("Enter values seperated by comma")
+# l = [eval(e) for e in input().split(",")]
+# print(l)
+                    # OR
+# print("Enter values seperated by comma")
+# s1 = input()
+# l1 = s1.split(",")
+# # print(l1)
+# l2 = [int(e) for e in l1]
+# print(l2)
+
+
+

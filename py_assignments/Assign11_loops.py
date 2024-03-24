@@ -29,7 +29,7 @@
 # i=1
 # sum=0
 # while i<=n:
-#     sum=sum+i*i*i
+#     sum=sum+i**3
 #     i+=1
 # print("Sum of cubes of first %d natural numbers is %d"%(n,sum)) 
 
@@ -81,7 +81,7 @@
 #Script to calculate sum of digits of a given number
 
 # n=int(input("Enter a number"))
-# rem=0
+
 # sum=0
 # while n>0:
 #     rem=n%10

@@ -59,7 +59,7 @@
 # "Reactjs","Javascript","Python"]
 
 # thislist=["Java","SQL","C","Reactjs","Javascript","Python"]
-# print(sorted(thislist))
+# # print(sorted(thislist))
 # thislist.sort()
 # print(thislist)
  
@@ -81,9 +81,9 @@
 
 #Script to create a list, where each element of the list is a digit of a given number
 
-n=int(input("Enter a number"))
-l1=[]
-while n>0:
-    l1.append(n%10)
-    n=n//10
-print(l1)    
+# n=int(input("Enter a number"))
+# l1=[]
+# while n>0:
+#     l1.append(n%10)
+#     n=n//10
+# print(l1)    

@@ -99,55 +99,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #WAP which takes age and display the category of a person.below-10-kid,below 20-teen
 #    below 40-young,below 60-experienced,above or equal to 60-senior citizen
 

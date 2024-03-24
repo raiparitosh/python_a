@@ -2,14 +2,14 @@
 
 #Write a python script to add comments and print “Learning Python” on screen                             
 
-# print('"learning python"')   #adding coments
+# print('"learning python"')   #adding comments
 
 
 # Write a python script to add multi line comments and print values of 
 # four variables each in a new line. Variable contains any values.
 
-# """We are adding
-#  multi-line coments"""
+"""We are adding
+  multi-line coments"""
 
 # p=20     
 # q=25

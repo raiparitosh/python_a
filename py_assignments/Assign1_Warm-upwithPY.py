@@ -9,17 +9,19 @@
 #Write a python script to print Hello on the first line and Python on the second line
 
 # print("Hello\nPython")
+print("hello","python",sep = "\n")
 
 
 #Write a python script to print "MySirG" on the screen
 
-# print('""MySirG""')
+# print('"MySirG"')
+print("\"Mysirg\"")
 
 
 #Write a python script to print "Teacher's Day" on the screen
 
 
-# print("""Teacher's Day""")
+print("\"Teacher's Day\"")
 
 
 #Write a python script to print the value of a variable. Variable contains your name as data
@@ -39,7 +41,7 @@
 
 #Write a python script to print values of three variables, each in a new line. Variable contains integer values
 
-# a = 7
-# b = 8
-# c = 9
-# print(a, b, c,sep='\n')
+"""a = 7
+b = 8
+c = 9
+print(a, b, c,sep='\n')"""
